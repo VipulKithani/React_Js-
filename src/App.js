@@ -15,6 +15,7 @@ import ParentComponent from './Components/ParentComponent';
 import Papa from './Components/Papa';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
+import PersonList from './Components/PersonList';
 
 function App() {
     return (
@@ -35,7 +36,8 @@ function App() {
             <Papa/>
 
             <UserGreeting />
-            <NameList/>
+            <NameList />
+            <PersonList/>
   </div>
   );
 }
