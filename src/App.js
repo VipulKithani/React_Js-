@@ -16,8 +16,12 @@ import Papa from './Components/Papa';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import PersonList from './Components/PersonList';
+import './mystyles.css'
+import styles from './mystyles.module.css'
+import Form from './Components/Form';
 
 function App() {
+    
     return (
         <div>
             {/* <Hello name="vipul" age="21">
@@ -33,11 +37,13 @@ function App() {
             <ClassClick />
             <EventBind />
             <ParentComponent />*/}
-            <Papa/>
-
+            {/*<Papa />
+            <h1 className='error'>Error</h1>
+            <h1 className={styles.success}>Success</h1>
             <UserGreeting />
             <NameList />
-            <PersonList/>
+            <PersonList/>*/}
+            <Form/>
   </div>
   );
 }

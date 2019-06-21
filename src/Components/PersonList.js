@@ -1,5 +1,7 @@
 import React from 'react'
 import Detail from './Detail';
+import './mystyle.css'
+
 function PersonList() {
 
     const persons = [
@@ -12,10 +14,11 @@ function PersonList() {
 			id:'2'
         }
     ];
-    const personList = persons.map(detail => <Detail details={detail} />)
+    const personList = persons.map(detail => <Detail key={detail.id} details={detail} />)
     return (
 
-        <div>
+        <div className='primary'>
+            
             {personList}
         </div>
 		
