@@ -25,6 +25,10 @@ class Form extends Component {
             topic:event.target.value
         })
     }
+    handlesubmit = (username, comments, topic) => {
+        alert(this.state.username + " " + this.state.comments + " " + this.state.topic)
+
+}
 
     render() {
 

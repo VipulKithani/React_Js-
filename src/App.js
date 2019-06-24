@@ -19,6 +19,7 @@ import PersonList from './Components/PersonList';
 import './mystyles.css'
 import styles from './mystyles.module.css'
 import Form from './Components/Form';
+import LifecycleA from './Components/LifecycleA';
 
 function App() {
     
@@ -42,8 +43,11 @@ function App() {
             <h1 className={styles.success}>Success</h1>
             <UserGreeting />
             <NameList />
-            <PersonList/>*/}
+            <PersonList/>
             <Form/>
+            */}
+            <LifecycleA/>
+            
   </div>
   );
 }
